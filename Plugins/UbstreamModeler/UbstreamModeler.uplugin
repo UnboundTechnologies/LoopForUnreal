@@ -1,0 +1,41 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.2.0",
+	"FriendlyName": "Unbound Loop",
+	"Description": "A polished Unreal Modeling Mode companion for live AI concepting. Stream your modeling viewport, prompt the backend, and preview results without leaving the editor.",
+	"Category": "AI Tools",
+	"CreatedBy": "Unbound Loop",
+	"CreatedByURL": "https://loop.unbound.io",
+	"DocsURL": "https://github.com/UnboundTechnologies/LoopForUnreal#readme",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/UnboundTechnologies/LoopForUnreal/issues",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"Modules": [
+		{
+			"Name": "UbstreamModelerRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "UbstreamModelerEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"LocalizationTargets": [
+		{
+			"Name": "UbstreamModeler",
+			"LoadingPolicy": "Always"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [ "Editor" ]
+		}
+	]
+}

@@ -1,0 +1,11 @@
+.DS_Store
+Intermediate/
+Saved/
+Binaries/
+DerivedDataCache/
+.vs/
+.vscode/
+*.sln
+*.xcodeproj/
+*.xcworkspace/
+tools/ws_server/received/
