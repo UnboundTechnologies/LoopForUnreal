@@ -48,3 +48,8 @@ node tools/ws_server/server.mjs
 ## Support
 
 Questions and bug reports: [GitHub Issues](https://github.com/UnboundTechnologies/LoopForUnreal/issues)
+
+## License
+
+[MIT](LICENSE). The bundled Work Sans font is licensed under the
+[SIL Open Font License](Plugins/UbstreamModeler/Resources/Fonts/WorkSans-OFL.txt).
